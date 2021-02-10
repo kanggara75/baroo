@@ -7,28 +7,17 @@ class Main extends CI_Controller
   {
     $this->load->view('main/index');
   }
-}
-
-class Join extends CI_Controller
-{
-  public function index()
+  public function join()
   {
     $this->load->view('main/join');
   }
-}
 
-class Buat extends CI_Controller
-{
-
-  public function index()
+  public function buat()
   {
     $this->load->view('main/buat');
   }
-}
 
-class VsCom extends CI_Controller
-{
-  public function index()
+  public function vscom()
   {
     $this->load->view('main/vscom');
   }
